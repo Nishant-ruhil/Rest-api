@@ -1,0 +1,66 @@
+[
+    {
+        "name" : "iphone6",
+        "price" : 1150,
+        "feature" : true,
+        "company" : "apple"
+    },
+    {
+        "name" : "iphone10",
+        "price" : 11500,
+        "feature" : true,
+        "company" : "apple"
+    },
+    {
+        "name" : "apple_watch",
+        "price" : 115,
+        "feature" : false,
+        "company" : "apple"
+    },
+    {
+        "name" : "Laptop_dellkm10",
+        "price" : 1654,
+        "company" : "dell"
+    },
+    {
+        "name" : "Laptop_dellkm15",
+        "price" : 16564,
+        "company" : "dell"
+    },
+    {
+        "name" : "Laptop_dell11",
+        "price" : 9658,
+        "company" : "dell"
+    },
+    {
+        "name" : "Samsungs23",
+        "price" : 11500,
+        "company" : "samsung"
+    },
+    {
+        "name" : "Samsungs24",
+        "price" : 211500,
+        "company" : "samsung"
+    },
+    {
+        "name" : "Samsungs22E",
+        "price" : 65,
+        "company" : "samsung"
+    },
+    {
+        "name" : "redmi11",
+        "price" : 3562,
+        "company" : "Xiaomi"
+    },
+    {
+        "name" : "redmi10",
+        "price" : 35,
+        "company" : "Xiaomi"
+    },
+    {
+        "name" : "redmi16",
+        "price" : 356254,
+        "company" : "Xiaomi"
+    }
+]
+    
