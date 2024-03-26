@@ -5,13 +5,10 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 // uri = "mongodb+srv://nishant:Nishant@#2213@products.eomnyoa.mongodb.net/products?retryWrites=true&w=majority&appName=products"
 
 const connectDB =(uri)=>{
-    return new MongoClient(uri,{
-        serverApi: {
-            version: ServerApiVersion.v1,
-            strict: true,
-            deprecationErrors: true,
-          }
+    return mongoose.connect(uri,{
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
     });
-}
+};
 
 module.exports = connectDB;
