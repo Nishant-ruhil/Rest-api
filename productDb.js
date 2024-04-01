@@ -7,7 +7,7 @@ const start = async () => {
     try {
         await connectDB(process.env.MONGODB_URL);
         console.log("Database connected successfully");
-        console.log(productJson)
+        // await Product.deleteMany();   
         await Product.create(productJson); 
         console.log("Data imported successfully");
     } catch (error) {
